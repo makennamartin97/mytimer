@@ -1,0 +1,44 @@
+#wrapper{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+    background-color: black;
+  }
+  #timer{
+
+    height:12rem;
+    width:15rem;
+    background-color:blue;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-radius:10%;
+    font-size:2em;
+    border:6px solid black;
+    
+  }
+  #buttons{
+    display:flex;
+    flex-direction:row;
+  }
+  .btn{
+    
+    padding:1rem;
+    border-radius:10%;
+    
+  }
+  #reset{
+    background-color:red;
+  }
+  #stop{
+    background-color:black;
+    color:white;
+  }
+  #start{
+    background-color:green;
+    color:white;
+  }
+  
